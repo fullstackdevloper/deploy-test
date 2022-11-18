@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: getting information
-       run: echo "Name: ${{ github.event.release.name }} Description: ${{ github.event.release.body }}"
+       run: "hey there"
