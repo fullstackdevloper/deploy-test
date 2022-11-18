@@ -8,5 +8,4 @@ jobs:
   after-release:
     runs-on: ubuntu-latest
     steps:
-      -name: getting information
-       run: "hey there"
+      - run: echo "Got tag name ${{ github.event.release.name }}"
